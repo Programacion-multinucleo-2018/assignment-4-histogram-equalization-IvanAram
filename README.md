@@ -8,7 +8,7 @@ Assignment No 4 for the multi-core programming course. Implement histogram equal
 The programs have to do the following:
 
 1. Using Opencv, load and image and convert it to grayscale.
-2. Calculate de histogram of the image.
+2. Calculate the histogram of the image.
 3. Calculate the normalized sum of the histogram.
 4. Create an output image based on the normalized histogram.
 5. Display both the input and output images.
@@ -24,3 +24,9 @@ Rubric:
 5. For the GPU version, used shared memory where necessary.
 6. Both images are displayed at the end.
 7. Calculation times and speedup obtained are incuded in the Readme.
+
+Equalize image on host elapsed: 81.54604 ms
+
+Equalize image on device elapsed: 16.66932 ms
+
+Speedup obtained: 4.89198
