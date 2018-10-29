@@ -25,6 +25,12 @@ Rubric:
 6. Both images are displayed at the end.
 7. Calculation times and speedup obtained are incuded in the Readme.
 
+**NOTES**
+
+1. Did not use shared memory for the histogram calculation.
+
+**Grade: 90**
+
 Equalize image on host elapsed: 81.54604 ms
 
 Equalize image on device elapsed: 16.66932 ms
